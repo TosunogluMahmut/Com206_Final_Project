@@ -101,12 +101,10 @@ class AnaSayfa(QMainWindow):
 
 
 tema_kodu = """
-/* Ana arkaplan rengi */
 QMainWindow, QDialog {
     background-color: #F5F5F5;
 }
 
-/* Flutter Card görünümlü liste elemanları */
 QListWidget {
     background-color: #F5F5F5;
     border: none;
@@ -126,7 +124,6 @@ QListWidget::item:selected {
     color: #000000;
 }
 
-/* Turuncu Temalı Butonlar */
 QPushButton {
     background-color: #FF9800;
     color: white;
@@ -143,7 +140,6 @@ QPushButton:pressed {
     background-color: #E65100;
 }
 
-/* Metin Giriş Kutuları (TextField karşılığı) */
 QLineEdit {
     padding: 10px;
     border: 1px solid #CCCCCC;
@@ -158,8 +154,6 @@ QLineEdit:focus {
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    
-    # Yazdığımız tasarımı sisteme entegre ediyoruz
     app.setStyleSheet(tema_kodu)
     
     pencere = AnaSayfa()
