@@ -1,2 +1,0 @@
-C:\Users\Mahmut Eren\Desktop\Com-206Project\bin\Release\net8.0\win-x64\publish\Com-206Project.pdb
-C:\Users\Mahmut Eren\Desktop\Com-206Project\bin\Release\net8.0\win-x64\publish\Com-206Project.exe
